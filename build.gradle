@@ -11,9 +11,10 @@ repositories {
 
 dependencies {
     implementation 'software.amazon.awssdk:ssm:2.17.143',
-            'org.slf4j:slf4j-simple:1.7.32'
+            'org.slf4j:slf4j-simple:1.7.32',
+            'software.amazon.lambda:powertools-parameters:1.8.0'
 
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.2'
+            testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.2'
 }
 
 test {
